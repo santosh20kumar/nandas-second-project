@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bakery Admin</title><link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="topbar"><div class="brand"><span class="brand-icon">🥐</span><div><strong>Bakery Admin</strong><small>Manage orders</small></div></div><a class="cart-btn" href="/">← Shop</a></header>
+<main class="container admin">
+  <div id="loginBox" class="admin-login"><h1>Staff login</h1><p>Enter the admin password configured on your server.</p><input id="adminPassword" type="password" placeholder="Admin password"><button class="primary" onclick="login()">Login</button><p id="loginError" class="error"></p></div>
+  <div id="dashboard" class="hidden">
+    <div class="section-head"><div><p class="eyebrow">DASHBOARD</p><h1>Orders</h1></div><button class="primary" onclick="loadOrders()">Refresh</button></div>
+    <div id="orders"></div>
+  </div>
+</main>
+<script src="/admin.js"></script>
+</body>
+</html>

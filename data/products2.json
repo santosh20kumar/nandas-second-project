@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Pineapple Cool Cake",
+    "category": "Cakes",
+    "price": 250,
+    "description": "Fresh pineapple cool cake."
+  },
+  {
+    "id": 2,
+    "name": "Chocolate Cake",
+    "category": "Cakes",
+    "price": 500,
+    "description": "Rich chocolate cake."
+  },
+  {
+    "id": 3,
+    "name": "Burger",
+    "category": "Snacks",
+    "price": 99,
+    "description": "Freshly prepared burger."
+  },
+  {
+    "id": 4,
+    "name": "Egg Puff",
+    "category": "Puffs & Bakery",
+    "price": 25,
+    "description": "Crispy puff with egg filling."
+  },
+  {
+    "id": 5,
+    "name": "Veg Puff",
+    "category": "Puffs & Bakery",
+    "price": 20,
+    "description": "Crispy puff with vegetable filling."
+  },
+  {
+    "id": 6,
+    "name": "Chicken Puff",
+    "category": "Puffs & Bakery",
+    "price": 30,
+    "description": "Crispy puff with chicken filling."
+  },
+  {
+    "id": 7,
+    "name": "Bread",
+    "category": "Bakery",
+    "price": 50,
+    "description": "Fresh bakery bread."
+  }
+]
